@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Beautiful Mail</title>
+    <link rel="stylesheet" href="buttons_style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Courgette&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            padding: 10px;
+            width: 750px;
+            border: none;
+        }
+
+        p {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 250px 500px;
+            grid-template-rows: 1fr;
+            gap: 15px;
+        }
+
+        
+
+        button {
+            display: block;
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        h1 {
+            font-family: "Courgette";
+        }
+
+        p, h3 {
+            font-family: "Inter";
+        }
+
+        .section-heading{
+            font-size: 15px; 
+            color: gray; 
+            margin-bottom: 25px;
+        }
+
+        .section1-heading {
+            margin-left: 15px;
+        }
+
+        .components {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            margin-left: 12px;
+        }
+
+        .anime {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            /* border-right: 2px solid gray; */
+        }
+
+        .anime img {
+            border: 1px solid black;
+            border-radius: 15px;
+            max-width: 490px;
+        }
+
+        .component {
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body style="padding: 10px 0;">
+    <div class="headers" style="padding: 0 12px; display: flex; justify-content: space-between; align-items: center;">
+        <div class="header-texts" style="display: flex;flex-direction: column; gap: 2px;">
+            <h1 style="font-size: 30px; margin: 0;">Beautiful Mail</h1>
+            <h3 style="margin: 0;">Select any Template And Edit Text</h3>
+        </div>
+        <div class="logo-div" style="display: flex; flex-direction: column; justify-content: center;">
+            <p style="margin: 0; padding: 0; text-align: center;">Created by</p>
+            <img style="height: 60px;margin: 0; padding: 0; width: 80px; object-fit: cover;" src="logo.png" alt="">
+        </div>
+    </div>
+    <div class="container">
+        
+        <div class="components">
+            <p class="section2-heading section-heading" style="margin-bottom: 0;">Styled Texts</p>
+            <p class="component" id="template30" style="font-size: 25px;max-width: 240px;font-family: 'Lobster', cursive; font-weight: bold;">Are You Coming for Hiking?</p>
+
+            <!-- Component 2: Gradient Text Highlight -->
+            <p class="component" id="template31" style="font-size: 25px; font-weight: bold;width: 240px; background: linear-gradient(to right, #ff8a00, #e52e71); -webkit-background-clip: text; color: transparent;">
+            Let&#39s make it unforgettable &#x2728
+            </p>
+
+            <p class="component" id="template32" style="font-size: 25px; font-family: 'Lobster', cursive; color: #d32f2f; width: 240px;">
+            Let&#39s make memories louder than regrets.
+            </p>
+
+            <p class="component" id="template33" style="font-size: 25px; font-family: 'Pacifico', cursive; color: #7b1fa2; max-width: 240px;">
+            I texted you here because real ones email &#9993;
+            </p>
+
+            <p class="component" id="template34" style="font-size: 25px; font-family: 'Bebas Neue', sans-serif; color: #0277bd; letter-spacing: 2px; max-width: 240px;">
+            Caffeine. Code. Create. Repeat &#9749;
+            </p>
+
+            <p class="component" id="template35" style="font-size: 25px; font-family: 'Shadows Into Light', cursive; color: #33691e; max-width: 240px;">
+            Today feels handwritten, like it matters &#9999;
+            </p>
+
+            <p class="component" id="template36" style="font-size: 25x; font-family: 'Orbitron', sans-serif; color: #00bcd4; text-transform: uppercase;max-width: 240px;">
+            Let's Break the Internet &#128640;
+            </p>
+
+            <p class="component" id="template37" style="font-size: 25px; font-family: 'Gloria Hallelujah', cursive; color: #5d4037;max-width: 240px;">
+            I wrote this because I remembered you &#127803;
+            </p>
+
+            <p class="component" id="template38" style="font-size: 25px; font-family: 'Raleway Dots', cursive; color: #ff4081;max-width: 240px;">
+            Breathe. Blink. Hit send.
+            </p>
+
+            <p class="component" id="template39" style="font-size: 25px; font-family: 'Playfair Display', serif; font-style: italic; color: #3e2723;max-width: 240px;">
+            It&#39s not just an email, it&#39s a feeling.
+            </p>
+
+            <p class="component" id="template40" style="font-size: 25px; font-family: 'Audiowide', cursive; color: #d81b60;max-width: 240px;">
+            Generation Vibes: Delivered.
+            </p>
+
+            <p class="component" id="template41" style="font-size: 25px; font-family: 'Sacramento', cursive; color: #512da8; max-width: 240px;">
+            Thinking of you like... this &#11088;
+            </p>
+
+            <p class="component" id="template42" style="font-size: 25px; font-family: 'Amatic SC', cursive; color: #ef6c00; max-width: 240px;">
+            If words could hug, this would.
+            </p>
+
+            <p class="component" id="template43" style="font-size: 25px; font-family: 'Anton', sans-serif; color: #00897b; max-width: 240px;">
+            Email? More like Emood.
+            </p>
+
+            <p class="component" id="template44" style="font-size: 25px; font-family: 'Rock Salt', cursive; color: #009688; max-width: 240px;">
+            This font is my personality today.
+            </p>
+
+            <p class="component" id="template45" style="font-size: 25px; font-family: 'Caveat', cursive; color: #f57f17; max-width: 240px;">
+            Note to self: Send love, not just messages.
+            </p>
+
+            <p class="component" id="template46" style="font-size: 26px; font-family: 'Fira Code', monospace; color: #263238; max-width: 240px;">
+            While True: Be Happy;
+            </p>
+
+            <p class="component" id="template47" style="font-size: 25px; font-family: 'Dancing Script', cursive; color: #6d4c41; max-width: 240px;">
+            This was typed with a smile &#128522;
+            </p>
+
+            <p class="component" id="template48" style="font-size: 25px; font-family: 'Nanum Pen Script', cursive; color: #00796b; max-width: 240px;">
+            I mean every pixel of this &#128236;
+            </p>
+
+            <p class="component" id="template49" style="font-size: 25px; font-family: 'Fredericka the Great', cursive; color: #3949ab; max-width: 240px;">
+            Feel the font. Read the rhythm.
+            </p>
+
+            <p class="component" id="template50" style="font-size: 25px; font-family: 'Monoton', cursive; color: #e91e63; max-width: 240px;">
+            Email drop: it&#39s glowing up &#128293;
+            </p>
+
+            <p class="component" id="template51" style="font-size: 25px; font-family: 'Indie Flower', cursive; color: #6a1b9a; max-width: 240px;">
+            I&#39m just a few keystrokes away.
+            </p>
+
+            <p class="component" id="template52" style="font-size: 25px; color: #212121; font-family: 'Playfair Display', serif; max-width: 240px; text-shadow: 1px 1px #aaa;">
+            Lost in the pixels, found in the words.
+            </p>
+
+            <p class="component" id="template53" style="font-size: 25px; color: #1a237e; font-family: 'Bebas Neue', sans-serif; max-width: 240px; text-decoration: underline wavy #3f51b5;">
+            Wavy thoughts. Wavier text.
+            </p>
+
+            <p class="component" id="template54" style="font-size: 25px; color: #880e4f; font-family: 'Caveat', cursive; max-width: 240px; font-weight: bold;">
+            Bold moves in thin fonts.
+            </p>
+
+            <p class="component" id="template55" style="font-size: 25px; color: #263238; font-family: 'Courier New', monospace; max-width: 240px; letter-spacing: 1px;">
+            echo "You&#39ve got this."
+            </p>
+
+            <p class="component" id="template56" style="font-size: 25px; color: #3e2723; font-family: 'Anton', sans-serif; max-width: 240px; text-transform: uppercase;">
+            make it matter.
+            </p>
+
+            <p class="component" id="template57" style="font-size: 25px; color: #4a148c; font-family: 'Dancing Script', cursive; max-width: 240px; text-decoration: underline double #7b1fa2;">
+            Gentle chaos is still art.
+            </p>
+
+            <p class="component" id="template58" style="font-size: 25px; color: #1b5e20; font-family: 'Fira Code', monospace; max-width: 240px;">
+            // Sent with style.
+            </p>
+
+            <p class="component" id="template59" style="font-size: 25px; color: #0d47a1; font-family: 'Orbitron', sans-serif; max-width: 240px; font-variant: small-caps;">
+            elevate every line
+            </p>
+
+            <p class="component" id="template60" style="font-size: 25px; color: #6a1b9a; font-family: 'Gloria Hallelujah', cursive; max-width: 240px; font-style: italic;">
+            wrote this like a diary entry
+            </p>
+
+            <p class="component" id="template61" style="font-size: 25px; color: #37474f; font-family: 'Raleway Dots', cursive; max-width: 240px; text-shadow: 0 2px 2px rgba(0,0,0,0.2);">
+            meet me between the lines.
+            </p>
+
+            <p class="component" id="template62" style="font-size: 25px; color: #263238; font-family: 'Lobster', cursive; max-width: 240px; font-weight: bold;">
+            So simple. So expressive.
+            </p>
+
+            <p class="component" id="template63" style="font-size: 25px; color: #004d40; font-family: 'Rock Salt', cursive; max-width: 240px;">
+            handwriting of my digital soul.
+            </p>
+
+            <p class="component" id="template64" style="font-size: 25px; color: #01579b; font-family: 'Amatic SC', cursive; max-width: 240px; letter-spacing: 2px;">
+            soft text. hard vibes.
+            </p>
+
+            <p class="component" id="template65" style="font-size: 25px; color: #1a1a1a; font-family: 'Nanum Pen Script', cursive; max-width: 240px; font-style: italic;">
+            I wrote this thinking of you.
+            </p>
+
+            <p class="component" id="template66" style="font-size: 25px; color: #d84315; font-family: 'Sacramento', cursive; max-width: 240px; font-weight: 600;">
+            Just a little bold, just like you.
+            </p>
+
+            <p class="component" id="template67" style="font-size: 25px; color: #283593; font-family: 'Fira Code', monospace; max-width: 240px; text-decoration: underline dotted #5c6bc0;">
+            { inbox: ['this message'] }
+            </p>
+
+            <p class="component" id="template68" style="font-size: 25px; color: #263238; font-family: 'Fredericka the Great', cursive; max-width: 240px;">
+            Truth looks like this in HTML.
+            </p>
+
+            <p class="component" id="template69" style="font-size: 25px; color: #e65100; font-family: 'Gloria Hallelujah', cursive; max-width: 240px; text-shadow: 0 1px 1px #000;">
+            This is what silence looks like.
+            </p>
+
+            <p class="component" id="template70" style="font-size: 25px; color: #1b1b1b; font-family: 'Playfair Display', serif; max-width: 240px; text-transform: capitalize;">
+            even the quietest texts speak.
+            </p>
+
+            <p class="component" id="template71" style="font-size: 25px; color: #006064; font-family: 'Audiowide', sans-serif; max-width: 240px; font-style: normal; font-weight: 700;">
+            SIGNAL RECEIVED.
+            </p>
+
+            <div class="component" id="template72" style="max-width: 240px; font-size: 25px; font-family: 'Playfair Display', serif; border-bottom: 2px dashed #5c6bc0; color: #1e1e1e;">
+            Designed to speak softly &mdash; and last.
+            </div>
+
+            <div class="component" id="template73" style="max-width: 240px; font-size: 25px; font-family: 'Anton', sans-serif; color: #283593; border-top: 3px solid #7986cb; padding-top: 5px;">
+            ALIGN YOUR DREAMS.
+            </div>
+
+            <div class="component" id="template74" style="max-width: 240px; font-size: 25px; font-family: 'Dancing Script', cursive; color: #4e342e; border-left: 4px solid #fbc02d; padding-left: 12px;">
+            The way I feel when I write to you.
+            </div>
+
+            <div class="component" id="template75" style="max-width: 240px; font-size: 25px; font-family: 'Orbitron', sans-serif; color: #1a237e; border-bottom: 1px dotted #3f51b5;">
+            high definition messaging
+            </div>
+
+            <div class="component" id="template76" style="max-width: 240px; font-size: 25px; font-family: 'Nanum Pen Script', cursive; color: #00695c; border-right: 3px solid #009688; padding-right: 10px;">
+            This is how it sounds when we speak in pixels.
+            </div>
+
+            <div class="component" id="template77" style="box-sizing: border-box;max-width: 240px; font-size: 25px; font-family: 'Rock Salt', cursive; color: #5d4037; border: 2px solid #ffab91; padding: 6px;">
+            I don&#39t need a frame. I am one.
+            </div>
+
+            <div class="component" id="template78" style="max-width: 240px; font-size: 25px; font-family: 'Raleway Dots', sans-serif; color: #37474f; border-left: 3px double #90a4ae; padding-left: 12px;">
+            dotted and double-lined intentions
+            </div>
+
+            <div class="component" id="template79" style="max-width: 240px; font-size: 25px; font-family: 'Amatic SC', cursive; color: #4a148c; border-top: 3px dashed #ba68c8; padding-top: 4px;">
+            text that barely whispers
+            </div>
+
+            <div class="component" id="template80" style="max-width: 240px; font-size: 25px; font-family: 'Lobster', cursive; color: #0277bd; border: 1px dashed #81d4fa; padding: 8px;">
+            I styled this for someone like you.
+            </div>
+
+            <div class="component" id="template81" style="max-width: 240px; font-size: 25px; font-family: 'Gloria Hallelujah', cursive; color: #3e2723; border-bottom: 4px groove #a1887f;">
+            Real fonts. Real feels.
+            </div>
+
+            <!-- Component 3: Neon Glow Title -->
+            <p class="component" id="template82" style="font-size: 26px; font-weight: bold; color: #39ff14; text-shadow: 0 0 4px #39ff14, 0 0 8px #00ffcc;max-width: 240px;">
+            Late Night Code Jam &#128187
+            </p>
+
+            <!-- Component 4: Pixel Style Retro Banner -->
+            <p class="component" id="template83" style="font-family: 'Courier New', monospace; background: #000; color: #fff176; padding: 12px; font-size: 20px; border: 2px dashed #ffeb3b; border-radius: 6px;">
+            Welcome to the 8-bit Era &#127752
+            </p>
+
+            <!-- Component 5: Handwritten Note Style -->
+            <p class="component" id="template84" style="font-family: 'Patrick Hand', cursive; font-size: 22px; background: #fff9c4; padding: 12px; border-radius: 8px; border-left: 5px solid #fbc02d;">
+            Just wanted to remind you how awesome you are &#128521
+            </p>
+
+            <!-- Component 6: 3D Letterpress Shadow Text -->
+            <p class="component" id="template85" style="font-size: 26px; font-weight: 700; color: #333; text-shadow: 2px 2px #b0bec5;">
+            This email slaps &#9995
+            </p>
+
+            <!-- Component 7: Minimal Highlight Box -->
+            <div class="component" id="template86" style="background: #e3f2fd; color: #01579b; padding: 18px; font-size: 18px; border-radius: 10px; margin-bottom: 20px;">
+            Heads-up! You &apos ve got something cool to respond to &#128173
+            </div>
+
+            <!-- Component 8: Instagram Story Vibes -->
+            <div class="component" id="template87" style="padding: 20px; font-size: 24px; font-weight: bold; border-radius: 14px; background: linear-gradient(to right, #ff9a9e, #fad0c4); color: white; text-align: center;">
+            Your vibe is immaculate &#127800
+            </div>
+
+            <!-- Component 9: Soft Quote Block -->
+            <blockquote class="component" id="template88" style="font-size: 15px;margin: 20px 0; font-style: italic; background: #f1f8e9; color: #33691e; padding: 16px 24px; border-left: 5px solid #aed581; border-radius: 6px;">
+            &#34The best conversations always start with a little kindness.&#34
+            </blockquote>
+
+            <!-- Component 10: Highlighted Emoji Header Row -->
+            <div class="component" id="template89" style="display: flex; align-items: center; background: #fce4ec; padding: 14px; border-radius: 10px; color: #ad1457; font-weight: bold; font-size: 20px; gap: 10px;">
+            <span>&#129395</span><span>New plan? I&#39m all in &#128161</span>
+            </div>
+        </div>
+        <div class="templates">
+            <p class="section1-heading section-heading">Ready Templates</p>
+            <div class="general">
+                <img id="template1" style="width: 500px; height: 100px; object-fit: cover;" src="template_images/chat_message.png" alt="">
+                <img id="template2" style="width: 500px; height: 250px;" src="template_images/general_invitation.png" alt="">
+                <img id="template3" style="width: 100%; height: 250px;" src="template_images/general_thankyou.png" alt="">
+                <img id="template4" style="width: 100%; height: 250px;" src="template_images/general_reminder.png" alt="">
+                <img id="template5" style="width: 100%; height: 250px;" src="template_images/general_friendly_checkin.png"alt="">
+                <img id="template6" style="width: 100%; height: 250px;" src="template_images/general_favor.png" alt="">
+                <img id="template7" style="width: 100%; height: 250px;" src="template_images/special_message.png" alt="">
+                <img id="template8" style="width: 100%; height: 290px;" src="template_images/general_card_message.png"alt="">
+            </div>
+            <div class="themed">
+                <img id="template9" style="width: 100%; height: 220px;" src="template_images/confetti_thankyou.png" alt="">
+                <img id="template10" style="width: 100%; height: 200px;" src="template_images/retro_message.png" alt="">
+                <img id="template11" style="width: 100%; height: 180px;" src="template_images/bubble_tea_favor.png" alt="">
+                <img id="template12" style="width: 100%; height: 170px;" src="template_images/minimalist_message.png" alt="">
+                <img id="template13" style="width: 100%; height: 180px;" src="template_images/banana_reminder.png" alt="">
+                <img id="template14" style="width: 100%; height: 180px;" src="template_images/galactic_ideadrop.png" alt="">
+                <img id="template15" style="width: 100%; height: 290px;" src="template_images/cute_message.png" alt="">
+                <img id="template16" style="width: 100%; height: 140px;" src="template_images/rsvp_message.png" alt="">
+                <img id="template17" style="width: 100%; height: 140px;" src="template_images/cyberpunk_message.png" alt="">
+                <img id="template18" style="width: 100%; height: 140px;" src="template_images/tea_chat_message.png" alt="">
+                <img id="template19" style="width: 100%; height: 230px;" src="template_images/vibe_drop_message.png" alt="">
+                <img id="template20" style="width: 100%; height: 200px;" src="template_images/memo_alert_message.png" alt="">
+                <img id="template21" style="width: 100%; height: 180px;" src="template_images/ig_story_message.png" alt="">
+                <img id="template22" style="width: 100%; height: 180px;" src="template_images/discord_message.png" alt="">
+                <img id="template23" style="width: 100%; height: 180px;" src="template_images/tik_tok_message.png" alt="">
+            </div>
+            <div class="anime">
+                <img id="template24" style="width: 100%; height: 270px;" src="template_images/itachi_message.png" alt="">
+                <img id="template25" style="width: 100%; height: 230px;" src="template_images/gojo_message.png" alt="">
+                <img id="template26" style="width: 100%; height: 230px;" src="template_images/luffy_message.png" alt="">
+                <img id="template27" style="width: 100%; height: 230px;" src="template_images/lelouch_message.png" alt="">
+                <img id="template28" style="width: 100%; height: 230px;" src="template_images/spike_message.png" alt="">
+                <img id="template29" style="width: 100%; height: 230px;" src="template_images/kakashi_message.png" alt="">
+            </div>
+        </div>
+    </div>
+    <p style="text-align: center; font-family: monospace; font-size: 23px; margin: 30px;">More Beautiful Email Styles Coming soon..</p>
+</body>
+<script src="popup.js"></script>
+
+</html>

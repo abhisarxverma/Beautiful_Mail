@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Beautiful Mail",
+  "version": "1.0",
+  "description": "Send elegant email templates in one click.",
+  "permissions": ["scripting", "tabs"],
+  "host_permissions": ["https://mail.google.com/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Choose an email template"
+  },
+  "web_accessible_resources": [
+    {
+      "resources": ["popup.html"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        padding: 0;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg,  pink, blueviolet);
+    }
+
+    h1,
+    p {
+        padding: 0;
+        margin: 0;
+        font-family: "Inter";
+    }
+
+    .container {
+        width: 200px;
+        min-height: 200px;
+        background-color: white;
+        aspect-ratio: 1/1;
+        border: 2px solid black;
+        border-radius: 15px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50px 1fr;
+        box-shadow: 1px 1px 3px black;
+        padding: 50px 30px;
+    }
+
+    /* .container>div:not(.container div:first-child) {
+        border-top: 1px solid black;
+    } */
+
+    .header {
+        display: grid;
+        grid-template-columns: 50px 1fr;
+        grid-template-rows: 1fr;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .icon-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #profile-icon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .name-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        align-items: center;
+    }
+
+    #name {
+        font-size: 17px;
+        font-weight: bold;
+    }
+
+    #email {
+        font-size: 14px;
+        margin-top: -6px;
+    }
+
+    .content {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+    }
+</style>
+<div class="container">
+    <div class="header">
+        <div class="icon-container">
+            <img id="profile-icon" src="./boy.png" alt="boy profile placeholder icon">
+        </div>
+        <div class="name-container">
+            <p id="name">Abhisar verma</p>
+            <p id="email">absrshanks@gmail.com</p>
+        </div>
+    </div>
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae aliquam earum nisi dolorum molestias asperiores error sed, molestiae fuga nostrum suscipit sunt cum cumque mollitia odio non placeat nam odit aperiam iure quos ea eos? Nam esse molestias quia explicabo doloremque, corporis minus obcaecati ab aperiam itaque ullam similique?</p>
+    </div>
+</div>
