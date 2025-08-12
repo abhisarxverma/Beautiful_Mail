@@ -2,8 +2,8 @@
 
 ### Why only companies can send beautiful colored emails with buttons and logos, I built this chrome extension so that anyone can send these beautiful mails anytime.
 
-### Just select the template and it will open your gmail website with template already in the compose box
-### Change the text with your message, press send and make the receiver astonished.
+Just select the template and it will open your gmail website with template already in the compose box
+Change the text with your message, press send and make the receiver astonished.
 
 <img src="screenshot.png" style="object-fit: contain; margin-top: 20px;" >
 
